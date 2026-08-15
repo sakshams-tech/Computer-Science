@@ -14,7 +14,7 @@ int main(void)
 
     int score1 = score_calculation(word1);
     int score2 = score_calculation(word2);
-    printf("%i %i\n", score1, score2);
+    
     if (score1 > score2)
     {
         printf("Player 1 wins!\n");
